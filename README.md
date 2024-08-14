@@ -38,6 +38,15 @@
   - GPT Search Page
   - GPT Search Bar
   - (BONUS) Multi Language Feature in our App
+  - Get Google Palm Api key
+  - GPT Search Api call
+  - fetched gptMoviesuggestions from TMDB
+  - created GPT Slice added data
+  - Reused Movie List Component to make movie suggestion container
+  - Memoization
+  - Keeping keys in .env folder
+  - Added .env file to .gitignore
+  - Made our App responsive
 
 
 # Features

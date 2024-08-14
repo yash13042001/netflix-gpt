@@ -52,9 +52,9 @@ const Header = () => {
     dispatch(changeLanguage(e.target.value));
   };
   return (
-    <div className="absolute w-full px-8 py-4 bg-gradient-to-b from-black z-10 flex justify-between">
+    <div className="absolute w-full px-8 py-4 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
       <svg
-        className="w-32 text-red-600 fill-current"
+        className="w-32 mx-auto md:mx-0 text-red-600 fill-current"
         fill={"red"}
         viewBox="0 0 111 30"
         version="1.1"
@@ -67,7 +67,7 @@ const Header = () => {
         </g>
       </svg>
       {user && (
-        <div className="flex p-2">
+        <div className="flex p-2 justify-between">
           {showGptSearch && (
             <select
               className="p-2 m-2 bg-gray-900 text-white"
@@ -87,7 +87,7 @@ const Header = () => {
             {showGptSearch ? "Home" : "GPT Search"}
           </button>
           <img
-            className="h-12 w-12"
+            className="hidden md:block h-12 w-12"
             src="https://occ-0-5298-3647.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABTZ2zlLdBVC05fsd2YQAR43J6vB1NAUBOOrxt7oaFATxMhtdzlNZ846H3D8TZzooe2-FT853YVYs8p001KVFYopWi4D4NXM.png?r=229"
             alt="usericon"
           />
