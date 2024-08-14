@@ -8,7 +8,7 @@ const MainContainer = () => {
   //   IF movies is null we will not render the main container
   if (!movies) return;
 
-  const mainMovie = movies[6];
+  const mainMovie = movies[2];
   // console.log(mainMovie);
 
   const { original_title, overview, id } = mainMovie;
